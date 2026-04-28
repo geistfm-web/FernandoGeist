@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+#menu {
+    display: none;
+}
+
+body {
+    background: #ccc;
+    font-family: Arial, sans-serif;
+}
+
+#contenedor {
+    width: 800px;
+    margin: 20px auto;
+    border: 2px solid black;
+    background: white;
+}
+
+/* CABECERA */
+#cabecera {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/* CONTENEDOR DE COLUMNAS */
+#main {
+    display: flex; /* 🔥 ESTO ES LA CLAVE */
+}
+
+/* MENU */
+#menu {
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/* CONTENIDO */
+#contenido {
+    flex: 1; /* ocupa todo el espacio restante */
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/* PIE */
+#pie {
+    border: 1px solid black;
+    padding: 20px;
+}
